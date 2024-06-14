@@ -70,6 +70,6 @@ with open(data_file_path, 'r') as file:
     INPUT_TEXT = file.read()
 
 #Executing the llm chain
-quiz_output = chain(
-    {"text":INPUT_TEXT, "number":2, "subject":"machine learning", "tone":"medium", "response_json":json.dumps(RESPONSE_JSON)}
-)
+# quiz_output = chain(
+#     {"text":INPUT_TEXT, "number":2, "subject":"machine learning", "tone":"medium", "response_json":json.dumps(RESPONSE_JSON)}
+# )
